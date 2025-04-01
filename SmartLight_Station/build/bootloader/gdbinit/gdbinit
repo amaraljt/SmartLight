@@ -1,0 +1,2 @@
+source /home/szensei/projects/SmartLight/SmartLight_Station/build/bootloader/gdbinit/symbols
+source /home/szensei/projects/SmartLight/SmartLight_Station/build/bootloader/gdbinit/connect

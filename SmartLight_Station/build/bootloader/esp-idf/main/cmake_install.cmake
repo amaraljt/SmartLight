@@ -1,4 +1,4 @@
-# Install script for directory: /home/szensei/esp/esp-idf/components/newlib/port
+# Install script for directory: /home/szensei/esp/esp-idf/components/bootloader/subproject/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/szensei/projects/SmartLight/SmartLight_Station/build/esp-idf/newlib/port/install_local_manifest.txt"
+  file(WRITE "/home/szensei/projects/SmartLight/SmartLight_Station/build/bootloader/esp-idf/main/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -99,8 +99,8 @@ CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 //Path to a program.
 CMAKE_DLLTOOL:FILEPATH=CMAKE_DLLTOOL-NOTFOUND
 
-//Flags used by the linker during all build types.
-CMAKE_EXE_LINKER_FLAGS:STRING=
+//Linker Base Flags
+CMAKE_EXE_LINKER_FLAGS:STRING='-nostartfiles '
 
 //Flags used by the linker during DEBUG builds.
 CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=
@@ -353,7 +353,7 @@ Mbed TLS_IS_TOP_LEVEL:STATIC=OFF
 Mbed TLS_SOURCE_DIR:STATIC=/home/szensei/esp/esp-idf/components/mbedtls/mbedtls
 
 //No help, variable specified on the command line.
-PYTHON:UNINITIALIZED=/home/szensei/.espressif/python_env/idf5.4_py3.13_env/bin/python
+PYTHON:UNINITIALIZED=/home/szensei/.espressif/python_env/idf5.5_py3.13_env/bin/python
 
 //No help, variable specified on the command line.
 PYTHON_DEPS_CHECKED:UNINITIALIZED=1
@@ -552,7 +552,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=117
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=118
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -602,7 +602,7 @@ C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS:INTERNAL=1
 //Details about finding Git
 FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[/usr/bin/git][v2.49.0()]
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/szensei/.espressif/python_env/idf5.4_py3.13_env/bin/python][found components: Interpreter ][v3.13.2()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/szensei/.espressif/python_env/idf5.5_py3.13_env/bin/python][found components: Interpreter ][v3.13.2()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: GIT_EXECUTABLE
@@ -613,10 +613,10 @@ _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
 _Python3_Compiler_REASON_FAILURE:INTERNAL=
 //Development reason failure
 _Python3_Development_REASON_FAILURE:INTERNAL=
-_Python3_EXECUTABLE:INTERNAL=/home/szensei/.espressif/python_env/idf5.4_py3.13_env/bin/python
+_Python3_EXECUTABLE:INTERNAL=/home/szensei/.espressif/python_env/idf5.5_py3.13_env/bin/python
 //Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;13;2;32;64;;;abi3;/usr/lib/python3.13;/home/szensei/.espressif/python_env/idf5.4_py3.13_env/lib/python3.13;/home/szensei/.espressif/python_env/idf5.4_py3.13_env/lib/python3.13/site-packages;/home/szensei/.espressif/python_env/idf5.4_py3.13_env/lib/python3.13/site-packages
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=89de98962285870879b0b18a121c7d32
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;13;2;32;64;;;abi3;/usr/lib/python3.13;/home/szensei/.espressif/python_env/idf5.5_py3.13_env/lib/python3.13;/home/szensei/.espressif/python_env/idf5.5_py3.13_env/lib/python3.13/site-packages;/home/szensei/.espressif/python_env/idf5.5_py3.13_env/lib/python3.13/site-packages
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=b3ca030761ac0333b6d053e3fce0b92c
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
 
