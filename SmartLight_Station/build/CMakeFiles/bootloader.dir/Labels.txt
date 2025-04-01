@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/szensei/projects/SmartLight/SmartLight_Station/build/CMakeFiles/bootloader
+/home/szensei/projects/SmartLight/SmartLight_Station/build/CMakeFiles/bootloader.rule
+/home/szensei/projects/SmartLight/SmartLight_Station/build/CMakeFiles/bootloader-complete.rule
+/home/szensei/projects/SmartLight/SmartLight_Station/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/szensei/projects/SmartLight/SmartLight_Station/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/szensei/projects/SmartLight/SmartLight_Station/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/szensei/projects/SmartLight/SmartLight_Station/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/szensei/projects/SmartLight/SmartLight_Station/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/szensei/projects/SmartLight/SmartLight_Station/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/szensei/projects/SmartLight/SmartLight_Station/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
